@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testout_Automated_Test" >
+
+    <test name="Testout_SmokeTest">
+
+        <groups>
+            <run>
+                <include name="SmokeTest"/>
+            </run>
+        </groups>
+
+        <classes>
+
+            <class name="testout.TestCase"/>
+
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->
